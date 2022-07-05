@@ -1,0 +1,27 @@
+:root {
+  --bg: rgb(92, 128, 188, .5);
+  --primary: #E8C547;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg);
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul, ol, li {
+  list-style: none;
+}
