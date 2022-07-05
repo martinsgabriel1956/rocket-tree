@@ -52,6 +52,21 @@
   transition: filter .4s;
 }
 
+.container ul li:nth-child(1) a {
+  animation: 1s slideToCenter normal;
+}
+.container ul li:nth-child(2) a {
+  animation: 1.5s slideToCenter normal;
+}
+
+.container ul li:nth-child(3) a {
+  animation: 1.75s slideToCenter normal;
+}
+
+.container ul li:nth-child(4) a {
+  animation: 2s slideToCenter normal;
+}
+
 .container ul li a:hover {
   filter: brightness(.9);
 }
@@ -60,4 +75,13 @@
   font-size: 12px;
   font-weight: 500;
   color: rgba(0, 8, 47, 0.6);
+}
+
+@keyframes slideToCenter {
+  0% {
+   transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
